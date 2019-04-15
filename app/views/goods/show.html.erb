@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @good.name %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @good.category %>
+</p>
+
+<p>
+  <strong>Source:</strong>
+  <%= @good.source %>
+</p>
+
+<p>
+  <strong>Destination:</strong>
+  <%= @good.destination %>
+</p>
+
+<p>
+  <strong>Consignment:</strong>
+  <%= @good.consignment %>
+</p>
+
+<p>
+  <strong>Entry at:</strong>
+  <%= @good.entry_at %>
+</p>
+
+<p>
+  <strong>Exit at:</strong>
+  <%= @good.exit_at %>
+</p>
+
+<%= link_to 'Edit', edit_good_path(@good) %> |
+<%= link_to 'Back', goods_path %>
